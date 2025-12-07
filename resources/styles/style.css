@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+html, body, main{
+    height: 100%;
+    width: 100%;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.zona_contactos{
+    height: 100%;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-width: 1px;
+    border-color: #c8c8c9;
+}
+.seccion_perfil{
+    background-color:#f6f6f6;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction:row ;
+    align-items:center ;
+    border: solid;
+    border-width: 1px;
+    border-color: #c8c8c9;
+}
+.seccion_perfil>img{
+    height: 50px;
+    border-radius:50%;
+}
+.seccion_perfil_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+.seccion_perfil_iconos{
+    color:#747474;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.seccion_nuevo_chat{
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border: solid;
+    border-width: 1px;
+    border-color: #c8c8c9;
+
+    
+}
+
+.seccion_nuevo_chat>button{
+    border-color: #A491D2;
+    font-weight: 600;
+    font-size: large;
+    background-color: #A491D2;
+    color: #f6f6f6;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.seccion_contactos{  
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-width: 1px;
+    border-color: #c8c8c9;
+    background-color: #f6f6f6;
+    overflow-y: auto;
+}
+.seccion_contactos>div{
+    display: flex;
+    flex-direction: row;
+    background-color:#f6f6f6;
+    padding: 1.5rem;
+    align-items:center ;
+    border: solid;
+    border-width: 1px;
+    border-color: #c8c8c9;
+}
+.seccion_contactos>div>img{
+    height: 60px;
+    border-radius: 50%;
+}
+.zona_principal{
+    color: #484848;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    height: 100%;
+    width: 100%;
+    background-color: #ece9e9;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.zona_principal>img{
+    height: 200px;
+    margin: 20px;
+}
